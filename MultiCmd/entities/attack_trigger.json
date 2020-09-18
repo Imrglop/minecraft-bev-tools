@@ -1,0 +1,40 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "c:attack_trigger",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "on_damage": {
+                "filters": {}
+            },
+            "deals_damage": false
+          }
+        },
+        "minecraft:collision_box": {
+          "width": 1.0,
+          "height": 1.0
+        },
+        "minecraft:health": {
+          "value": 50000,
+          "max": 50000
+        },
+        "minecraft:nameable": {
+
+        },
+        "minecraft:persistent": {
+
+        },
+        "minecraft:fire_immune":true,
+        "minecraft:physics": {
+          "has_gravity": false
+        }
+      }
+    }
+  }
+  

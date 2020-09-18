@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "c:trigger",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:collision_box": {
+          "width": 0.0,
+          "height": 0.0
+        },
+        "minecraft:health": {
+          "value": 50000,
+          "max": 50000
+        },
+        "minecraft:nameable": {
+
+        },
+        "minecraft:fire_immune":true
+      }
+    }
+  }
+  
